@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
+import { TrueFalse } from './features/truefalse/TrueFalse';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <TrueFalse />
         <span>
           <span>Learn </span>
           <a

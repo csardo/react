@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import counterReducer from '../features/counter/counterSlice';
+import trueFalseReducer from '../features/truefalse/trueFalseSlice';
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    trueFalse: trueFalseReducer
   },
 });
 
