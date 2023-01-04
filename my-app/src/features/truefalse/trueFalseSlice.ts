@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
 
+/* note this has to be an object else you get an error */
 export interface TrueFalseState {
     value: boolean;
   }
